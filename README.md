@@ -23,10 +23,10 @@ Stock/Financial data at your fingertips
  		//This may happen often if yahoo's server is under high volume
  		fmt.Println(err)
  	}else{
- 		//outpus map of stock symbols and their specified attributes given above
+ 		//outputs map of stock symbols and their specified attributes given above
  		fmt.Println(out)
 
- 		//Outputs microsofts current price per earing ratio as a string
+ 		//outputs microsofts current price per earing ratio as a string
  		fmt.Println(out["MSFT"][finance.Price_Per_Earning_Ratio])
  	}
 
