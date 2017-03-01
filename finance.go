@@ -101,175 +101,175 @@ const (
 
 func associatedQueryValue(s string) string {
 	switch s {
-	case "Ask":
+	case Ask:
 		return "a"
-	case "Average_Daily_Volume":
+	case Average_Daily_Volume:
 		return "a2"
-	case "Ask_Size":
+	case Ask_Size:
 		return "a5"
-	case "Bid":
+	case Bid:
 		return "b"
-	case "Ask_Real_time":
+	case Ask_Real_time:
 		return "b2"
-	case "Bid_Real_time":
+	case Bid_Real_time:
 		return "b3"
-	case "Book_Value":
+	case Book_Value:
 		return "b4"
-	case "Bid_Size":
+	case Bid_Size:
 		return "b6"
-	case "Change_And_Percent_Change":
+	case Change_And_Percent_Change:
 		return "c"
-	case "Change":
+	case Change:
 		return "c1"
-	case "Commission":
+	case Commission:
 		return "c3"
-	case "Change_Real_time":
+	case Change_Real_time:
 		return "c6"
-	case "After_Hours_Change_Real_time":
+	case After_Hours_Change_Real_time:
 		return "c8"
-	case "Dividend_Per_Share":
+	case Dividend_Per_Share:
 		return "d"
-	case "Last_Trade_Date":
+	case Last_Trade_Date:
 		return "d1"
-	case "Trade_Date":
+	case Trade_Date:
 		return "d2"
-	case "Earnings_Per_Share":
+	case Earnings_Per_Share:
 		return "e"
-	case "Error_Indication_		returned_for_symbol_changed_Per_invalid":
+	case Error_Indication_returned_for_symbol_changed_Per_invalid:
 		return "e1"
-	case "EPS_Estimate_Current_Year":
+	case EPS_Estimate_Current_Year:
 		return "e7"
-	case "EPS_Estimate_Next_Year":
+	case EPS_Estimate_Next_Year:
 		return "e8"
-	case "EPS_Estimate_Next_Quarter":
+	case EPS_Estimate_Next_Quarter:
 		return "e9"
-	case "Float_Shares":
+	case Float_Shares:
 		return "f6"
-	case "Days_Low":
+	case Days_Low:
 		return "g"
-	case "Days_High":
+	case Days_High:
 		return "h"
-	case "Year_Low":
+	case Year_Low:
 		return "j"
-	case "Year_High":
+	case Year_High:
 		return "k"
-	case "Holdings_Gain_Percent":
+	case Holdings_Gain_Percent:
 		return "g1"
-	case "Annualized_Gain":
+	case Annualized_Gain:
 		return "g3"
-	case "Holdings_Gain":
+	case Holdings_Gain:
 		return "g4"
-	case "Holdings_Gain_Percent_Real_time":
+	case Holdings_Gain_Percent_Real_time:
 		return "g5"
-	case "Holdings_Gain_Real_time":
+	case Holdings_Gain_Real_time:
 		return "g6"
-	case "More_Info":
+	case More_Info:
 		return "i"
-	case "Order_Book_Real_time":
+	case Order_Book_Real_time:
 		return "i5"
-	case "Market_Capitalization":
+	case Market_Capitalization:
 		return "j1"
-	case "Market_Cap_Real_time":
+	case Market_Cap_Real_time:
 		return "j3"
-	case "EBITDA":
+	case EBITDA:
 		return "j4"
-	case "Change_From_Year_Low":
+	case Change_From_Year_Low:
 		return "j5"
-	case "Percent_Change_From_Year_Low":
+	case Percent_Change_From_Year_Low:
 		return "j6"
-	case "Last_Trade_Real_time_With_Time":
+	case Last_Trade_Real_time_With_Time:
 		return "k1"
-	case "Change_Percent_Real_time":
+	case Change_Percent_Real_time:
 		return "k2"
-	case "Last_Trade_Size":
+	case Last_Trade_Size:
 		return "k3"
-	case "Change_From_Year_High":
+	case Change_From_Year_High:
 		return "k4"
-	case "Percebt_Change_From_Year_High":
+	case Percebt_Change_From_Year_High:
 		return "k5"
-	case "Last_Trade_With_Time":
+	case Last_Trade_With_Time:
 		return "l"
-	case "Last_Trade_Price_Only":
+	case Last_Trade_Price_Only:
 		return "l1"
-	case "High_Limit":
+	case High_Limit:
 		return "l2"
-	case "Low_Limit":
+	case Low_Limit:
 		return "l3"
-	case "Days_Range":
+	case Days_Range:
 		return "m"
-	case "Days_Range_Real_time":
+	case Days_Range_Real_time:
 		return "m2"
-	case "Fifty_day_Moving_Average":
+	case Fifty_day_Moving_Average:
 		return "m3"
-	case "Two_Hundred_Day_Moving_Average":
+	case Two_Hundred_Day_Moving_Average:
 		return "m4"
-	case "Change_From_200_day_Moving_Average":
+	case Change_From_200_day_Moving_Average:
 		return "m5"
-	case "Percent_Change_From_200_day_Moving_Average":
+	case Percent_Change_From_200_day_Moving_Average:
 		return "m6"
-	case "Change_From_50_day_Moving_Average":
+	case Change_From_50_day_Moving_Average:
 		return "m7"
-	case "Percent_Change_From_50_day_Moving_Average":
+	case Percent_Change_From_50_day_Moving_Average:
 		return "m8"
-	case "Name":
+	case Name:
 		return "n"
-	case "Notes":
+	case Notes:
 		return "n4"
-	case "Open":
+	case Open:
 		return "o"
-	case "Previous_Close":
+	case Previous_Close:
 		return "p"
-	case "Price_Paid":
+	case Price_Paid:
 		return "p1"
-	case "Change_in_Percent":
+	case Change_in_Percent:
 		return "p2"
-	case "Price_Per_Sales":
+	case Price_Per_Sales:
 		return "p5"
-	case "Price_Per_Book":
+	case Price_Per_Book:
 		return "p6"
-	case "Ex_Dividend_Date":
+	case Ex_Dividend_Date:
 		return "q"
-	case "Price_Per_Earning_Ratio":
+	case Price_Per_Earning_Ratio:
 		return "r"
-	case "Dividend_Pay_Date":
+	case Dividend_Pay_Date:
 		return "r1"
-	case "Price_Per_Earning_Ratio_Real_time":
+	case Price_Per_Earning_Ratio_Real_time:
 		return "r2"
-	case "PEG_Ratio":
+	case PEG_Ratio:
 		return "r5"
-	case "Price_Per_EPS_Estimate_Current_Year":
+	case Price_Per_EPS_Estimate_Current_Year:
 		return "r6"
-	case "Price_Per_EPS_Estimate_Next_Year":
+	case Price_Per_EPS_Estimate_Next_Year:
 		return "r7"
-	case "Symbol":
+	case Symbol:
 		return "s"
-	case "Shares_Owned":
+	case Shares_Owned:
 		return "s1"
-	case "Short_Ratio":
+	case Short_Ratio:
 		return "s7"
-	case "Last_Trade_Time":
+	case Last_Trade_Time:
 		return "t1"
-	case "Trade_Links":
+	case Trade_Links:
 		return "t6"
-	case "Ticker_Trend":
+	case Ticker_Trend:
 		return "t7"
-	case "One_Year_Target_Price":
+	case One_Year_Target_Price:
 		return "t8"
-	case "Volume":
+	case Volume:
 		return "v"
-	case "Holdings_Value":
+	case Holdings_Value:
 		return "v1"
-	case "Holdings_Value_Real_time":
+	case Holdings_Value_Real_time:
 		return "v7"
-	case "Year_Range":
+	case Year_Range:
 		return "w"
-	case "Days_Value_Change":
+	case Days_Value_Change:
 		return "w1"
-	case "Days_Value_Change_Real_time":
+	case Days_Value_Change_Real_time:
 		return "w4"
-	case "Stock_Exchange":
+	case Stock_Exchange:
 		return "x"
-	case "Dividend_Yield":
+	case Dividend_Yield:
 		return "y"
 	default:
 		return "NOTFOUND"
